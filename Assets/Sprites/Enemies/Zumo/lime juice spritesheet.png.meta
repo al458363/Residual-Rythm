@@ -1,31 +1,37 @@
 fileFormatVersion: 2
-guid: f9c69b50fb7134a41914dc50cd61bd84
+guid: 48ae9e93bec743c49a4e79b98a1a201e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5330831963949431558
-    second: cigarette spritesheet_0
+      213: -155456494822707013
+    second: lime juice spritesheet_0
   - first:
-      213: 3634105383897783127
-    second: cigarette spritesheet_1
+      213: 8594084309592199339
+    second: lime juice spritesheet_1
   - first:
-      213: -6494462447288631898
-    second: cigarette spritesheet_2
+      213: 7449714552690636496
+    second: lime juice spritesheet_2
   - first:
-      213: -2525666365990746958
-    second: cigarette spritesheet_3
+      213: -218085662028388885
+    second: lime juice spritesheet_3
   - first:
-      213: 6027299260385929419
-    second: cigarette spritesheet_4
+      213: 7922651875551900878
+    second: lime juice spritesheet_4
   - first:
-      213: -6780018026887659992
-    second: cigarette spritesheet_5
+      213: -8212095747355208116
+    second: lime juice spritesheet_5
   - first:
-      213: 3409519837495405922
-    second: cigarette spritesheet_6
+      213: -5125955988962853408
+    second: lime juice spritesheet_6
   - first:
-      213: -6701571236724733506
-    second: cigarette spritesheet_7
+      213: -5989961738665856500
+    second: lime juice spritesheet_7
+  - first:
+      213: 4050787442336709544
+    second: lime juice spritesheet_8
+  - first:
+      213: 8923462708645122632
+    second: lime juice spritesheet_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,13 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cigarette spritesheet_0
+      name: lime juice spritesheet_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 72
-        width: 15
-        height: 36
+        x: 1
+        y: 99
+        width: 29
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af40f7f92941506b0800000000000000
-      internalID: -5330831963949431558
+      spriteID: bb0b0104425b7ddf0800000000000000
+      internalID: -155456494822707013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cigarette spritesheet_1
+      name: lime juice spritesheet_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 36
-        width: 15
-        height: 37
+        x: 1
+        y: 66
+        width: 29
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75bdf83a79fee6230800000000000000
-      internalID: 3634105383897783127
+      spriteID: ba0500b6522544770800000000000000
+      internalID: 8594084309592199339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cigarette spritesheet_2
+      name: lime juice spritesheet_2
       rect:
         serializedVersion: 2
-        x: 40
-        y: 72
-        width: 15
-        height: 36
+        x: 33
+        y: 99
+        width: 29
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ad3f3630d80fd5a0800000000000000
-      internalID: -6494462447288631898
+      spriteID: 0d6fe275ae3b26760800000000000000
+      internalID: 7449714552690636496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cigarette spritesheet_3
+      name: lime juice spritesheet_3
       rect:
         serializedVersion: 2
-        x: 40
-        y: 36
-        width: 15
-        height: 36
+        x: 33
+        y: 66
+        width: 29
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b448f952d703fcd0800000000000000
-      internalID: -2525666365990746958
+      spriteID: be52130fe3439fcf0800000000000000
+      internalID: -218085662028388885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cigarette spritesheet_4
+      name: lime juice spritesheet_4
       rect:
         serializedVersion: 2
-        x: 72
-        y: 72
-        width: 15
-        height: 36
+        x: 65
+        y: 99
+        width: 29
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc8274a4eb445a350800000000000000
-      internalID: 6027299260385929419
+      spriteID: ec47a51a7e9e2fd60800000000000000
+      internalID: 7922651875551900878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cigarette spritesheet_5
+      name: lime juice spritesheet_5
       rect:
         serializedVersion: 2
-        x: 72
-        y: 36
-        width: 15
-        height: 36
+        x: 65
+        y: 66
+        width: 29
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +265,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82ebd90d68988e1a0800000000000000
-      internalID: -6780018026887659992
+      spriteID: c4695656d66c80e80800000000000000
+      internalID: -8212095747355208116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cigarette spritesheet_6
+      name: lime juice spritesheet_6
       rect:
         serializedVersion: 2
-        x: 8
+        x: 1
+        y: 33
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed359fbf22fcd8b0800000000000000
+      internalID: -5125955988962853408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lime juice spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1
         y: 0
-        width: 15
-        height: 37
+        width: 29
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +309,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26daf805a3c015f20800000000000000
-      internalID: 3409519837495405922
+      spriteID: c02f3ace8816fdca0800000000000000
+      internalID: -5989961738665856500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cigarette spritesheet_7
+      name: lime juice spritesheet_8
       rect:
         serializedVersion: 2
-        x: 40
-        y: 0
-        width: 15
-        height: 37
+        x: 33
+        y: 33
+        width: 29
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,8 +331,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb90c06777c3ff2a0800000000000000
-      internalID: -6701571236724733506
+      spriteID: 8abb71187b9473830800000000000000
+      internalID: 4050787442336709544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lime juice spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 33
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842dc331e0286db70800000000000000
+      internalID: 8923462708645122632
       vertices: []
       indices: 
       edges: []
@@ -323,14 +373,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cigarette spritesheet_0: -5330831963949431558
-      cigarette spritesheet_1: 3634105383897783127
-      cigarette spritesheet_2: -6494462447288631898
-      cigarette spritesheet_3: -2525666365990746958
-      cigarette spritesheet_4: 6027299260385929419
-      cigarette spritesheet_5: -6780018026887659992
-      cigarette spritesheet_6: 3409519837495405922
-      cigarette spritesheet_7: -6701571236724733506
+      lime juice spritesheet_0: -155456494822707013
+      lime juice spritesheet_1: 8594084309592199339
+      lime juice spritesheet_2: 7449714552690636496
+      lime juice spritesheet_3: -218085662028388885
+      lime juice spritesheet_4: 7922651875551900878
+      lime juice spritesheet_5: -8212095747355208116
+      lime juice spritesheet_6: -5125955988962853408
+      lime juice spritesheet_7: -5989961738665856500
+      lime juice spritesheet_8: 4050787442336709544
+      lime juice spritesheet_9: 8923462708645122632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
