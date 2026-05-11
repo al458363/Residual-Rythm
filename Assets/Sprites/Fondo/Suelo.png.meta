@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ca19d156466ce8d459fb92569f135a17
+guid: 4fa8bdbab2a50524386d324316b7f2fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1816614541540220187
-    second: BG 1_0
+      213: 1016031141298645601
+    second: Suelo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG 1_0
+      name: Suelo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 640
-        height: 360
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1d505afc49e53910800000000000000
-      internalID: 1816614541540220187
+      spriteID: 16a27d990faa91e00800000000000000
+      internalID: 1016031141298645601
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BG 1_0: 1816614541540220187
+      Suelo_0: 1016031141298645601
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
