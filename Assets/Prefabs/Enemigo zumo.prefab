@@ -103,8 +103,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 311433367
+  m_SortingLayer: 6
   m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: -155456494822707013, guid: 48ae9e93bec743c49a4e79b98a1a201e, type: 3}
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyBehaviour
   target: {fileID: 2842559880575226633, guid: eca44d6d117a3944fa719b51f24a19d8, type: 3}
   speed: 1.1
-  detectionDistance: 1.5
+  detectionDistance: 4
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 0
@@ -195,9 +195,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDamping: 1
+  m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: d12b2565f16c3ee4d82ae575a0e1bdaf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2

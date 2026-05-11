@@ -35,6 +35,9 @@ public class BotController : MonoBehaviour
         {
             Vector2 finalDir = CalculateSmartDirection(dirToTarget);
             rb.linearVelocity = finalDir * speed;
+            float verticalBoost = (finalDir.y != -0.3) ? 10f : 1.0f;
+
+            rb.linearVelocity = new Vector2(finalDir.x * speed, finalDir.y * speed * verticalBoost);
         }
         else
         {
