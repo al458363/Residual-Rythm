@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class BotController : MonoBehaviour
 {
-    [SerializeField] private Transform target;
+    [SerializeField] private PlayerHealth playerHealth;
+    private Transform target;
     [SerializeField] private float speed = 3f;
     private Rigidbody2D rb;
     private float minDistance = 0.1f; // Reducido para asegurar el contacto
@@ -100,6 +101,14 @@ public class BotController : MonoBehaviour
                 // El enemigo se destruye
                 Destroy(gameObject);
             }
+        }
+    }
+    void Start()
+    {
+        if (target == null && PlayerController.Instance != null)
+        {
+            target = PlayerController.Instance.transform;
+            playerHealth = PlayerController.Instance.GetComponent<PlayerHealth>();
         }
     }
 }

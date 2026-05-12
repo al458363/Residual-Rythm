@@ -1,0 +1,34 @@
+:root {
+}
+
+.my-progress-bar {
+}
+
+.my-progress-bar .unity-progress-bar__container {
+    height: 18%;
+    min-height: 18%;
+    max-height: 18%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.my-progress-bar .unity-progress-bar__background {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgba(76, 76, 76, 0);
+    background-size: 100% 100%;
+    border-left-color: rgba(76, 76, 76, 0);
+    border-right-color: rgba(76, 76, 76, 0);
+    border-top-color: rgba(76, 76, 76, 0);
+    border-bottom-color: rgba(76, 76, 76, 0);
+}
+
+.my-progress-bar .unity-progress-bar__title {
+    -unity-font-style: bold;
+    font-size: 8px;
+    -unity-text-align: middle-center;
+}

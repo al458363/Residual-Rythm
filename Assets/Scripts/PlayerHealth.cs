@@ -1,11 +1,15 @@
 using UnityEngine;
 using System.Collections;
+using System;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public bool isDead = false;
     [Header("Health")]
-    [SerializeField] int maxHealth = 100;
-    private int currentHealth;
+    public HealthData stats;
+    public event Action<float, float> OnHealthChanged;
+    public static PlayerHealth Instance;
     [Header("Damage Effects")]
     [SerializeField] private float iFramesDuration = 1.0f; // Segundos invulnerabilidad
     [SerializeField] private float flashDelay = 0.1f; // Velocidad parpadeo
@@ -15,28 +19,30 @@ public class PlayerHealth : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        currentHealth = maxHealth;
+        stats.currentHealth = stats.maxHealth;
+        OnHealthChanged?.Invoke(stats.currentHealth , stats.maxHealth);
     }
     public void TakeDamage(int amount)
     {
-        if (currentHealth <= 0)
+        if (!isInvulnerable && !isDead)
         {
-            Die();
-        }
-        if (!isInvulnerable)
-        {
-            currentHealth -= amount;
-
-            // 5. Llama al efecto visual de parpadeo e invulnerabilidad
+            stats.currentHealth -= amount;
+            if (stats.currentHealth < 0)
+            {
+                stats.currentHealth = 0;
+            }
+            OnHealthChanged?.Invoke(stats.currentHealth, stats.maxHealth);
             StartCoroutine(DamageEffectsRoutine());
-
-            // Aquí iría el resto de tu código anterior (ej. actualizar barra de vida)
-            Debug.Log("Vida restante: " + currentHealth);
+            if (stats.currentHealth <= 0)
+            {
+                Die();
+            }
         }
     }
     public void Die()
     {
-        Debug.Log("The player has died");
+        isDead = true;
+        Invoke("RestartGame", 0.2f);
     }
     // Update is called once per frame
     void Update()
@@ -46,6 +52,14 @@ public class PlayerHealth : MonoBehaviour
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
     private IEnumerator DamageEffectsRoutine()
     {
@@ -66,4 +80,19 @@ public class PlayerHealth : MonoBehaviour
 
         isInvulnerable = false; // Fin del efecto
     }
+    public void RestartGame()
+    {
+        ResetStats();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        OnHealthChanged?.Invoke(stats.currentHealth, stats.maxHealth);
+    }
+    public void ResetStats()
+    {
+        isDead = false;
+        stats.currentHealth = stats.maxHealth;
+        isInvulnerable = false;
+        spriteRenderer.color = Color.white;
+
+    }
+
 }

@@ -183,8 +183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 098126904be7b8f41b3c00497e258167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  playerActions: {fileID: -944628639613478452, guid: 0f3f270daa417f146a6ad95dbeaec965, type: 3}
   moveSpeed: 1
-  JumpForce: 4
+  JumpForce: 1
 --- !u!114 &6883688273812969948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,7 +250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ed1e12286dee894f9abd00c81326acd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 100
+  isDead: 0
+  stats: {fileID: 11400000, guid: 9ad89028cae444445bd6fa1093d04fa2, type: 2}
   iFramesDuration: 1
   flashDelay: 0.1
 --- !u!1 &8217809968466169319

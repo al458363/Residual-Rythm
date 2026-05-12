@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/USSHealthBar.uss?fileID=7433441132597879392&amp;guid=c4ef0d51a4721384c837f6e08cc9bb0c&amp;type=3#USSHealthBar"/>
+    <ui:ProgressBar value="100" title="" name="HealthBar" class="my-progress-bar" style="position: absolute; width: 17.5%; top: 16%; left: 21.4%; height: 20%;"/>
+</ui:UXML>
